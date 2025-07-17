@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { UserDataContext } from '../context/userContext.jsx';
+import { UserDataContext } from '../context/UserContext.jsx';
 import axios from 'axios';
 import UberLoader from '../components/UberLoader.jsx';
 

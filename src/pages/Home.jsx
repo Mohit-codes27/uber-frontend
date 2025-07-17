@@ -9,7 +9,7 @@ import ConfirmedRide from "../components/ConfirmedRide";
 import LookingForDriver from "../components/LookingForDriver";
 import WaitingForDriver from "../components/WaitingForDriver";
 import { useSocket } from "../context/SocketContext";
-import { UserDataContext } from "../context/userContext";
+import { UserDataContext } from "../context/UserContext";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import LiveTracking from "../components/LiveTracking";
