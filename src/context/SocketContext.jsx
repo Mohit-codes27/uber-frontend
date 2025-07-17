@@ -11,7 +11,7 @@ const SocketProvider = ({ children }) => {
   useEffect(() => {
     // Connect to the server
     socketRef.current = io(import.meta.env.VITE_BASE_URL || 'http://localhost:3000', {
-    //   withCredentials: true
+      withCredentials: true
     });
 
     const socket = socketRef.current;
