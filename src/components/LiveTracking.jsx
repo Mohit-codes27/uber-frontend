@@ -10,6 +10,7 @@ const center = {
     lat: -3.745,
     lng: -38.523
 };
+console.log('Google Maps API Key:', import.meta.env.VITE_GOOGLE_MAPS_API_KEY);
 
 const LiveTracking = () => {
     const [ currentPosition, setCurrentPosition ] = useState(center);
