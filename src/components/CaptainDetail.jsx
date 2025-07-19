@@ -9,7 +9,7 @@ const CaptainDetail = () => {
     <div>
       <div className="flex items-center justify-between">
           <div className='flex items-center justify-start gap-3'>
-            <img className='h-10 w-10 rounded-full object-cover' src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRy5QMODyHm-LaMpgXOqMIUHPbQ-Y51jAZR_UJYC-9Dv1IL3ovh" alt="" />
+            <img className='h-10 w-10 rounded-full object-cover' src="https://imgs.search.brave.com/-ByF2XTLK4DwY7kHWi2skCHEzhwEVtjAq9Ks7B00vhE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvNS9Qcm9m/aWxlLVBORy1GaWxl/LnBuZw" alt="" />
             <h4 className='text-lg font-medium capitalize'>{captain.fullName.firstName + " " + captain.fullName.lastName}</h4>
           </div>
           <div>

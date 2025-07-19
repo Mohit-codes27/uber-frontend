@@ -15,7 +15,7 @@ const RidePopUp = (props) => {
 
         <div className='flex items-center justify-between mt-4 p-3 bg-yellow-400 rounded-lg'>
             <div className='flex items-center gap-3'>
-                <img className='h-12 object-cover w-12 rounded-full' src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTu-GSY_bXjggu92Go8I0Od4bEoIE-RnSuaCRmN5xcL4lfSDQI169Wyg5hK0VegSLUJjpqlG47veDZ33C0" alt="" />
+                <img className='h-12 object-cover w-12 rounded-full' src="https://imgs.search.brave.com/-ByF2XTLK4DwY7kHWi2skCHEzhwEVtjAq9Ks7B00vhE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvNS9Qcm9m/aWxlLVBORy1GaWxl/LnBuZw" alt="" />
                 <h2 className='text-lg font-medium'>{props.ride?.userId.fullName.firstName + " " + props.ride?.userId.fullName.lastName}</h2>
             </div>
             <h5 className='text-lg font-semibold'>2.2 KM</h5>
